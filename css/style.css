@@ -1,0 +1,102 @@
+body{
+   background-color: rgb(34, 34, 34);
+   color: white;
+   font-family: sans-serif;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: red;
+}
+
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: darkviolet;
+    transition: 0.3ms;
+}
+
+h1{
+    font-weight: 200;
+}
+
+p{
+    font-family: cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    color: darkviolet;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+article{
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 15px;
+    margin-top: 68px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: darkviolet;
+    color: white;
+    font: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
